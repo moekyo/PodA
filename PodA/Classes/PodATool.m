@@ -13,4 +13,8 @@
     return [UIDevice currentDevice].name;
 }
 
++ (NSString *)getOSName {
+    return [UIDevice currentDevice].systemName;
+}
+
 @end
