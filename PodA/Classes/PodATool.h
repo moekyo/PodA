@@ -9,4 +9,7 @@
 
 @interface PodATool : NSObject
 
++ (NSString *)getDeviceName;
+
+
 @end

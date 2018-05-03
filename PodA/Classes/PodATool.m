@@ -9,4 +9,8 @@
 
 @implementation PodATool
 
++ (NSString *)getDeviceName {
+    return [UIDevice currentDevice].name;
+}
+
 @end
