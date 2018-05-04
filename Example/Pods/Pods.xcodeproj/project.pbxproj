@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3A5A574D1613D90952FC308722A23FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		56AD3BFBB6AE4E3866E45F8F8D2B54D4 /* PodA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C60E4D2DFECAB293CD332A5BEA98E75C /* PodA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6500AA68D54EA3D22C349AA7B66A1FCA /* Pods-PodA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2C18D284C46D8D43872CDF45C2AD5A /* Pods-PodA_Tests-dummy.m */; };
 		769BBC2FDBD6086119804C046CABE206 /* Pods-PodA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F60A9F7BFDB9EB3C07FC5E88518376EC /* Pods-PodA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AF202C1DBC555E9A6E26901F8E070C2 /* PodA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C88B6A1E791D2BA57A0D811CC736D /* PodA-dummy.m */; };
 		9CDAAE8F90B132ACC168C00B12D43086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D79BB54F77D0E5F5D5A252C021CB59AD /* Pods-PodA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18055EA23B0E8297A69B4C285D4AD4BA /* Pods-PodA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E29EAA83209AA49000A3E3B7 /* PodATool.h in Headers */ = {isa = PBXBuildFile; fileRef = E29EAA81209AA49000A3E3B7 /* PodATool.h */; };
+		E29EAA83209AA49000A3E3B7 /* PodATool.h in Headers */ = {isa = PBXBuildFile; fileRef = E29EAA81209AA49000A3E3B7 /* PodATool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E29EAA84209AA49000A3E3B7 /* PodATool.m in Sources */ = {isa = PBXBuildFile; fileRef = E29EAA82209AA49000A3E3B7 /* PodATool.m */; };
 		EE8CA8D1236C3CE4A6498EBD81B999BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FEF7C4E574173D9C1481F240CC825BC1 /* Pods-PodA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 585F0C4B84473B1AA47B43048A897C2A /* Pods-PodA_Example-dummy.m */; };
@@ -238,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E29EAA83209AA49000A3E3B7 /* PodATool.h in Headers */,
-				56AD3BFBB6AE4E3866E45F8F8D2B54D4 /* PodA-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
