@@ -17,4 +17,8 @@
     return [UIDevice currentDevice].systemName;
 }
 
++ (NSString *)getSystemVersion {
+    return [UIDevice currentDevice].systemVersion;
+}
+
 @end
